@@ -130,7 +130,7 @@ a lot of data that needs to be copied, this should be set high. */
  * without this padding e.g. addresses in the IP header will not be aligned
  * on a 32-bit boundary, so setting this to 2 can speed up 32-bit-platforms.
  */
-#define ETH_PAD_SIZE			0
+#define ETH_PAD_SIZE			2
 
 /* PBUF_LINK_HLEN: the number of bytes that should be allocated for a
    link level header. */
@@ -191,7 +191,7 @@ a lot of data that needs to be copied, this should be set high. */
 
 /* ---------- Statistics options ---------- */
 #define LWIP_STATS 1
-#define LWIP_STATS_DISPLAY 0
+#define LWIP_STATS_DISPLAY 1
 
 #if LWIP_STATS
 #define LINK_STATS 1

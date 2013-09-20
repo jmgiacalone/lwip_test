@@ -29,17 +29,17 @@
 		<link>
 			<name>Libraries/EMAC</name>
 			<type>2</type>
-			<locationURI>ArduinoLibPath/EMAC</locationURI>
+			<locationURI>ArduinoPivateLibPath/EMAC</locationURI>
 		</link>
 		<link>
 			<name>Libraries/Lwip</name>
 			<type>2</type>
-			<locationURI>ArduinoLibPath/Lwip</locationURI>
+			<locationURI>ArduinoPivateLibPath/Lwip</locationURI>
 		</link>
 		<link>
 			<name>Libraries/SamNonDuePin</name>
 			<type>2</type>
-			<locationURI>ArduinoLibPath/SamNonDuePin</locationURI>
+			<locationURI>ArduinoPivateLibPath/SamNonDuePin</locationURI>
 		</link>
 		<link>
 			<name>arduino/core</name>

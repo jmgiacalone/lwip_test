@@ -140,8 +140,8 @@ static void timers_update(void)
 /**
  *  \brief Set ethernet config.
  */
-err_t ethernetif_init_(struct netif *netif){return ERR_OK;};
-err_t ethernet_input_(struct pbuf *p, struct netif *netif){return ERR_OK;};
+//err_t ethernetif_init_(struct netif *netif){return ERR_OK;};
+//err_t ethernet_input_(struct pbuf *p, struct netif *netif){return ERR_OK;};
 
 static void ethernet_configure_interface(void)
 {
@@ -164,7 +164,7 @@ static void ethernet_configure_interface(void)
 
 	/* Add data to netif */
 	netif_add(&gs_net_if, &x_ip_addr, &x_net_mask, &x_gateway, NULL,
-			ethernetif_init_, ethernet_input);
+			ethernetif_init, ethernet_input);
 
 	/* Make it the default interface */
 	netif_set_default(&gs_net_if);
@@ -211,13 +211,13 @@ void status_callback(struct netif *netif)
 {
 	int8_t c_mess[25];
 	if (netif_is_up(netif)) {
-/*		printf("Network up\n");
-		strcpy((char*)c_mess, "IP=");
-		strcat((char*)c_mess, inet_ntoa(*(struct in_addr *)&(netif->ip_addr)));
-		printf((char const*)c_mess);
-		printf("-----------------\r\n");
-		//netif->flags |=NETIF_FLAG_LINK_UP;
-*/	} else {
+//		printf("Network up\r\n");
+//		strcpy((char*)c_mess, "IP=");
+//		strcat((char*)c_mess, inet_ntoa(*(struct in_addr *)&(netif->ip_addr)));
+//		printf((char const*)c_mess);
+//		printf("-----------------\r\n");
+		netif->flags |=NETIF_FLAG_LINK_UP;
+	} else {
 //		printf("Network down\r\n");
 	}
 }

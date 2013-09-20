@@ -29,7 +29,5 @@ void setup();
 //add your function definitions for the project lwip_test here
 void printf(char *fmt, ... );
 
-
-
 //Do not add code below this line
 #endif /* lwip_test_H_ */

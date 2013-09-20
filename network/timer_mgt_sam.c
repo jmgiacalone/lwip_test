@@ -77,7 +77,6 @@ void TC4_Handler()
 	/* Increase tick */
 	gs_ul_clk_tick++;
 
-//  printf("%d\r\n",gs_ul_clk_tick++);
 	ledState = !ledState;
 }
 

@@ -17,7 +17,7 @@ void setup()
 	ethPinsInit();
 	pinMode(11,OUTPUT);
 	  // start serial port at 9600 bps:
-	  SerialUSB.begin(115200);
+	  //SerialUSB.begin(115200);
 	  while (!SerialUSB.available());
 
 	  /* Bring up the ethernet interface & initializes timer0, channel0 */
