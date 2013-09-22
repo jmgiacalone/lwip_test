@@ -209,7 +209,7 @@ a lot of data that needs to be copied, this should be set high. */
 /* ---------- Lwip Debug options ---------- */
 /* Define default values for unconfigured parameters. */
 // 1 == To suppress some errors for now (no debug output)
-#define LWIP_NOASSERT 			1
+#define LWIP_NOASSERT 			0
 
 
 #define DBG_TYPES_ON                    0xff

@@ -27,6 +27,7 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lwip_test/Libraries/Lwip/lwip/src/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lwip_test/Libraries/Lwip/lwip/src/sam/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lwip_test/Libraries/EMAC}&quot;"/>
+									<listOptionValue builtIn="false" value="/usr/local/arduino-1.5.4/hardware/arduino/sam/system/libsam/include"/>
 								</option>
 								<inputType id="it.baeyens.arduino.compiler.cpp.sketch.input.194024640" name="CPP source files" superClass="it.baeyens.arduino.compiler.cpp.sketch.input"/>
 							</tool>
@@ -40,6 +41,7 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lwip_test/Libraries/Lwip/lwip/src/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lwip_test/Libraries/Lwip/lwip/src/sam/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lwip_test/Libraries/EMAC}&quot;"/>
+									<listOptionValue builtIn="false" value="/usr/local/arduino-1.5.4/hardware/arduino/sam/system/libsam/include"/>
 								</option>
 								<inputType id="it.baeyens.arduino.compiler.c.sketch.input.1451520402" name="C Source Files" superClass="it.baeyens.arduino.compiler.c.sketch.input"/>
 							</tool>
@@ -66,4 +68,5 @@
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
 	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
 </cproject>
